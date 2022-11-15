@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3aa5a4;
+}
+
+/* Name with image start */
+
+.title{
+    position: relative;
+    text-align: center;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .3;
+    background-image: url('./images/jalal.png');
+    background-size: cover;
+}
+
+.title h1 {
+    position: relative;
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 50px 20px 0px 5px;
+}
+
+.title h5 {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 35px;
+}
+
+/* Name with image end */
+
+/* About section start */
+.about{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    background: white;       
+}
+
+.about h2{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 40px 10px 10px 50px;
+}
+
+.imgBox {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    padding-top: 20px;
+}
+.img {
+    width: 30%;
+    height: 200px;
+    float: left;
+    background-image: url('./images/jalal\ \(2\).png ');
+    background-size: cover;
+
+}
+.imgBox p{
+    width: 68%;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+/* About section end */
+
+/* Projects section start */
+.projects{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background: white;
+    margin-top: 25px;       
+}
+
+.ProjectBox {
+    width: 95%;
+    margin: auto;
+}
+
+.projects h2{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 40px 10px  20px 50px;
+}
+
+.card {
+    width : 30%;
+    height: 250px;
+    float: left;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.card img{
+    height: 200px
+}
+
+.card h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* rojects section end */
+
+/* Work section start */
+.work{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background: white;
+    margin-top: 25px;       
+}
+
+.work h2 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 40px 10px  10px 50px;
+}
+.workBox{
+    width : 90%;
+    margin: auto;
+    padding: 20px 5px;
+}
+.workBox h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: rgb(52, 50, 50);    
+}
+.workBox p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: black;    
+}
+/* Work section end */
+
+/* Education section start */
+.education {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    background: white;
+    margin-top: 25px; 
+}
+
+.education h2 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 40px 10px 30px 50px;
+}
+.educationBox {
+    width : 90%;
+    margin-left: 25px;
+}
+.eduBox {
+    width : 30%;
+    float: left;
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+.eduBox p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.eduBox h3{
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding : 5px 0px;
+}
+
+/* Education section end */
+
+/* Language section start */
+.langauge{
+    width: 90%;
+    height: 180px;
+    margin: auto;
+    background: white;
+    margin-top: 25px; 
+}
+.langauge h2 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 40px 10px 10px 50px;
+}
+.langBox {
+    width : 80%;
+    margin-left: 50px;
+}
+.langBox p{
+    width: 30%;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0px;
+}
+/* Language section end */
+
+/* Social Links section start */
+.social{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    background: white;
+    margin-top: 25px; 
+}
+.social h2 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 40px 10px  10px 50px;
+}
+
+.socialBox {
+    width : 70%;
+    margin: 20px 0px 20px 0px;
+}
+.sLinks{
+    width :15%;
+    float: left;
+    padding: 5px;
+    margin-left: 40px;
+}
+.sLinks a{
+    width: 70%;
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    margin-left: 0;
+}
+.sLinks i{
+    width : 20%;
+    margin: 0;
+    font-size: 28px;
+    color: #3aa5a4;
+}
+
+/* Social Links section end */
+
+/* Contact div start */
+
+.contact{
+    width: 90%;
+    margin: auto;
+    background: white;
+    margin-top: 25px; 
+}
+
+.contact h2 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 50px 10px  10px 50px;
+}
+form{
+    width: 90%;
+    margin: 20px 10px 10px 50px;
+}
+.text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:none ;
+    border-radius: 4px;
+    border: none;
+    background-color: #EDEDED;
+
+}
+#message {
+    width: 100%;
+    height: 200px;
+    background-color: #EDEDED;
+    padding-left: 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+}
+button{
+    background-color:black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color:#3aa5a4;
+}
+
+/* Contact div end */
+
+.copy{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top: 25px; 
+    text-align: center;
+}
+
+.copy h4{
+    font-family: 'Oswald', sans-serif;
+}
